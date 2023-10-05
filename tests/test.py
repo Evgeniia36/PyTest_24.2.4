@@ -1,10 +1,10 @@
 import pytest
 
-from app.calc import Calculator # импортируем класс Calculator из файла calc, который в папке app
+from app.calc import Calculator
 
 class TestCalc:
-    def setup(self): # Метод setup определяет предустановки (начальные настройки).
-        self.calc = Calculator # В нашем случае это класс, который будем тестировать - Calculator
+    def setup(self):
+        self.calc = Calculator
 
     def test_multiply(self):
         assert self.calc.multiply(self, 2, 3) == 6
