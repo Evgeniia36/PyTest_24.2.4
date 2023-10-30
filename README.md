@@ -1,3 +1,1 @@
-### Задание 24.2.4
-
-В проекте реализовано позитивное тестирование приложения калькулятор
+In the project positive testing of the calculator application has been implemented.
