@@ -23,4 +23,4 @@ class TestCalc:
         assert self.calc.adding(self, 2, 3) == 5
 
     def teardown(self):
-        print('Выполнение метода Teardown')
+        print('Teardown')
